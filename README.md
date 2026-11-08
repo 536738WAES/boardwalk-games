@@ -30,7 +30,10 @@ User stories, acceptance criteria and tasks are tracked on the [GitHub Project b
 | 9 | Game reservation form | Board Game Enthusiast | Should have |
 
 ## Design
+
 ### Wireframes
+[View the full wireframes (PDF)](docs/wireframes/bootstrapM2-02.01.03-boardwalk-games-full-wireframes.pdf)
+
 ### Colour scheme
 ### Typography
 
