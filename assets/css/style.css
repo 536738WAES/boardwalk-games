@@ -100,6 +100,13 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#events .discount-badge {
+    background-color: var(--highlight-color);
+    font-size: 0.9rem;
+}
+
 /* Game library cards */
 
 #new-games .card,
