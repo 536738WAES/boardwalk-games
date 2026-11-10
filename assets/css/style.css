@@ -19,6 +19,8 @@
 
 body {
     font-family: var(--primary-font);
+    /* Stops the fixed navbar covering the top of the page */
+    padding-top: 57.5px;
 }
 
 h1,
@@ -42,8 +44,7 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem;
 }
 
 /* Buttons */
