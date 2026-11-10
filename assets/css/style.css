@@ -85,3 +85,33 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+/* Media queries */
+
+/* Tablet (768px and up): equal card heights */
+@media (min-width: 768px) {
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* Large (992px and up): all cards have the same text length, so no min-height needed */
+@media (min-width: 992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* Extra large (1200px and up) */
+@media (min-width: 1200px) {
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* Extra extra large (1400px and up) */
+@media (min-width: 1400px) {
+    #services .card-body {
+        min-height: 195px;
+    }
+}
