@@ -29,11 +29,39 @@ h3 {
     text-transform: uppercase;
 }
 
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
 .section {
-    margin: 2rem 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
 }
 
 /* Header */
+
 #header .lead {
     font-family: var(--secondary-font);
 }
+
+/* grid visualisation CSS for testing */
+
+/* .container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+} */
